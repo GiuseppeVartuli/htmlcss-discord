@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+.titolo{
+    display: flex;
+    width: 50%;
+    margin-left: 25%;
+    align-self: center;
+}
+.logo{
+    width: 50%;
+}
+.logo_bottom{
+    width: 50px;
+}
+.menu{
+    width: 60%;
+    text-align: center;
+}
+.login{
+    text-align: end;
+    width: 20%;
+}
+
+
+.container{
+    display: flex;
+    width: 100%;
+}
+
+
+
+.dowload{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 6rem;
+}
+
+.text{
+    width: 45%;
+    margin-left: 15%;
+    margin-top: 3rem;
+}
+.banner{
+    width: 25%;
+    margin-top: 3rem;
+}
+.text2{
+    width: 45%; 
+    margin-top: 3rem;
+    }
+.banner2{
+    width: 25%;
+    margin-left: 15%;
+    margin-top: 3rem;
+    }
+.container_xl{
+    display: flex;
+    width: 100%;
+}
+.dowload_xl{
+    width: 70%;
+    margin-left: 200px;
+    margin-top: 7rem;   
+}
+.top{
+    display: flex;
+    width: 100%;  
+    margin-bottom: 2px ;
+}
+
+.contatti{
+    width: 350px;
+    margin-top: 0.5rem;
+    margin-left: 200px;
+
+}
+.prodotto{
+    width: 150px;
+    margin-top: 0.5rem;
+
+}
+.compagnia{
+    width: 150px;
+    margin-top: 0.5rem;
+}
+.risorse{
+    width: 150px;
+    margin-top: 0.5rem;
+}
+.norme{
+    width: 150px;
+    margin-top: 0.5rem;
+}
+.bottom{
+    width: 100%;
+}
+.container_sl{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.bottone{
+    width: 50px;
+}
+
+
+
+
+\* .debug \*
+
+
+
+
+.debug .h300{
+    height: 300px;
+}
+.debug .h400{
+    height: 400px;
+}
+.debug .h480{
+    height: 480px;
+}
+.debug .h50{
+    height: 50px;
+}
+.debug .h40{
+    height: 40px;
+}
+.debug .h20{
+    height: 20px;
+}
+.debug .h500{
+    height: 500px;
+}
+.debug .h800{
+    height: 800px;
+}
+.debug .h1000{
+    height: 1000px;
+}
+.debug .bar{
+    background-color: aquamarine;
+}
+.debug .p5{
+    padding: 5px;
+}
+.debug .b2{
+    border: 2px dashed black;
+}
+.debug .orange{
+    background-color: orange;
+}
+.debug .blue{
+    background-color: rgb(3, 3, 146);
+}
+.debug .white{
+    background-color: white;
+}
+.debug .lightgrey{
+    background-color: lightgrey;
+}
+.debug .lightblue{
+    background-color: rgb(89, 89, 248);
+}
+.debug .lightpink{
+    background-color: rgb(226, 175, 183);
+}
+.debug .darkgrey{
+    background-color: rgb(59, 58, 58);
+}
+.debug .green{
+    background-color: green;
+}
+.debug .lightgreen{
+    background-color: rgb(45, 141, 45);
+}
+.debug .pink{
+    background-color: pink;
+}
+.debug .aqua{
+    background-color: aqua;
+}
