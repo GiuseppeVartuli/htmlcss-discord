@@ -3,10 +3,32 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.bar{
+    display: flex;
 }
 
+
+.jumbo{
+    background-image: url(./img/jumbo.png);
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+h1{
+    color: white;
+    padding-top: 100px;
+}
+p{
+    color: white;
+    padding-top: 40px;
+}
 header{
-    background-color: rgb(55, 55, 228);
+    background-color: rgb(88, 88, 233);
     height: 80px;
 }
 a{
@@ -19,13 +41,11 @@ a{
     margin-left: 200px;
     align-self: center;
     padding: 20px;
+    align-items: baseline;
 }
-.logo{
 
-}
-.logo_bottom{
-    width: 50px;
-}
+
+
 .menu{
     width: 60%;
     text-align: center;
@@ -35,95 +55,9 @@ a{
     background-color: white;
     border-radius: 20%;
     width: 60px;
-    height: 35px;
     text-align: center;
 }
 
-
-.container{
-    display: flex;
-    width: 100%;
-}
-
-
-
-.dowload{
-    width: 50%;
-    margin-left: 25%;
-    margin-top: 6rem;
-}
-
-.text{
-    width: 45%;
-    margin-left: 15%;
-    margin-top: 3rem;
-}
-.banner{
-    width: 25%;
-    margin-top: 3rem;
-}
-.text2{
-    width: 45%; 
-    margin-top: 3rem;
-    }
-.banner2{
-    width: 25%;
-    margin-left: 15%;
-    margin-top: 3rem;
-    }
-.container_xl{
-    display: flex;
-    width: 100%;
-}
-.dowload_xl{
-    width: 70%;
-    margin-left: 200px;
-    margin-top: 7rem;   
-}
-.top{
-    display: flex;
-    width: 100%;  
-    margin-bottom: 2px ;
-}
-
-.contatti{
-    width: 350px;
-    margin-top: 0.5rem;
-    margin-left: 200px;
-
-}
-.prodotto{
-    width: 150px;
-    margin-top: 0.5rem;
-
-}
-.compagnia{
-    width: 150px;
-    margin-top: 0.5rem;
-}
-.risorse{
-    width: 150px;
-    margin-top: 0.5rem;
-}
-.norme{
-    width: 150px;
-    margin-top: 0.5rem;
-}
-.bottom{
-    width: 100%;
-}
-.container_sl{
-    display: flex;
-    justify-content: space-between;
-    align-content: space-between;
-    align-items: center;
-    width: 70%;
-    margin-left: 15%;
-}
-
-.bottone{
-    width: 50px;
-}
 
 
 
@@ -132,7 +66,9 @@ a{
 
 
 
-
+.debug .logo_bottom{
+    width: 50px;
+}
 .debug .h300{
     height: 300px;
 }
@@ -160,7 +96,7 @@ a{
 .debug .h1000{
     height: 1000px;
 }
-.debug .bar{
+.debug .aquamarine{
     background-color: aquamarine;
 }
 .debug .p5{
@@ -201,4 +137,94 @@ a{
 }
 .debug .aqua{
     background-color: aqua;
+} 
+
+.debug .container{
+    display: flex;
+    width: 100%;
+    gap: 90px;
+    align-items: center;
+
 }
+
+
+
+.debug .dowload{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 6rem;
+}
+
+.debug .text{
+    width: 20%;
+    margin-left: 15%;
+    margin-top: 3rem;
+
+}
+.debug .banner{
+    width: 35%;
+    margin-top: 3rem;
+}
+.debug .text2{
+    width: 45%; 
+    margin-top: 3rem;
+    }
+.debug .banner2{
+    width: 25%;
+    margin-left: 15%;
+    margin-top: 3rem;
+    }
+.debug .container_xl{
+    display: flex;
+    width: 100%;
+}
+.debug .dowload_xl{
+    width: 70%;
+    margin-left: 200px;
+    margin-top: 7rem;   
+}
+.debug .top{
+    display: flex;
+    width: 100%;  
+    margin-bottom: 2px ;
+}
+
+.debug .contatti{
+    width: 350px;
+    margin-top: 0.5rem;
+    margin-left: 200px;
+
+}
+.debug .prodotto{
+    width: 150px;
+    margin-top: 0.5rem;
+
+}
+.debug .compagnia{
+    width: 150px;
+    margin-top: 0.5rem;
+}
+.debug .risorse{
+    width: 150px;
+    margin-top: 0.5rem;
+}
+.debug .norme{
+    width: 150px;
+    margin-top: 0.5rem;
+}
+.debug .bottom{
+    width: 100%;
+}
+.debug .container_sl{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.debug .bottone{
+    width: 50px;
+}
+
