@@ -122,24 +122,47 @@ h1{
 
 .footer_top{
     background-color: rgb(61, 59, 59);
-    display: flex;
-
     padding-top: 50px;
     padding-bottom: 20px;
+    text-align: center;
+    display: flex;
 }
 
+h3 , h5{
+    color: rgb(139, 131, 185);
+}
+li{
+    color: white;
+}
 
+.lingua , .social{
+    color: white;
+}
 .contatti{
-display: flex;
-width: 200px;
+    width: 900px;
+    display: block;
 }
 
 
+.footer_bottom{
+    background-color: rgb(61, 59, 59);
+    padding-bottom: 100px;
+}
 
+.container_sm{
+    border-top: 2px solid rgb(139, 131, 185);
+    display: flex;
+    justify-content: space-around;
+}
 
-
-
-
+.bottone{
+    width: 80px;
+    background-color: rgb(139, 131, 185);
+    border-radius: 15px;
+    padding: 5px;
+    border-style: none;
+    color: white;
+}
 
 
 
