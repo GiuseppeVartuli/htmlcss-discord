@@ -128,8 +128,22 @@ h1{
     text-align: center;
     padding-left: 400px;
     gap: 3rem;
+    position: relative;
 }
 
+.contatti{
+    position: absolute;
+}
+.social {
+    color: white;
+    position: absolute;
+    bottom: 250px;
+}
+.lingua{
+    color: white;
+    position: absolute;
+    bottom: 300px;
+}
 h3 , h5{
     color: rgb(139, 131, 185);
 }
